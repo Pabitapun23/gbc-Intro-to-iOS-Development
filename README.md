@@ -1,4 +1,4 @@
-This is a repository for all the iOS applications that I built during my Introduction to iOS Development course in GBC
+This is a repository for all the iOS applications that I built during my Introduction to iOS Development course in GBC.
 
 # Projects
 ## 1. Session01
@@ -8,3 +8,5 @@ In this session, I learned about the basics of iOS development, like text, text 
 ## 2. Session02
 In this session, I learned more about the basics of iOS development, which include buttons, how to use built-in features from the library, VStack, HStack, forms and form validation, and error handling. I created a calculator app for calculating employee payslips.
 
+## 3. Session03
+In this session, I studied about toggle (switch), stepper, slider, and date picker. Also, I learned about loops like ForEach loop and arrays. I created some applications as an exercise, like making the coffee options app that includes toggle, array, and ForEach Loop. In addition, I made a Pokemon App, that shows a list of Pokemon from the array of images.
