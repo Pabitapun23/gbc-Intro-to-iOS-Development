@@ -10,3 +10,6 @@ In this session, I learned more about the basics of iOS development, which inclu
 
 ## 3. Session03
 In this session, I studied about toggle (switch), stepper, slider, and date picker. Also, I learned about loops like ForEach loop and arrays. I created some applications as an exercise, like making the coffee options app that includes toggle, array, and ForEach Loop. In addition, I made a Pokemon App, that shows a list of Pokemon from the array of images.
+
+## 4. Session04
+In this session, I studied iOS architecture and lifecycle, SwiftUI, multiplatform demos (like Mac, iPad, iPhone, etc), alerts, dark mode, colors, ZStack, NavigationStack, and many more. I built a Tic-Tac-Toe game using all the specifications, and also, created a navigation bar on the top of the screen. Moreover, I downloaded and used the icons from SF Symbols.
