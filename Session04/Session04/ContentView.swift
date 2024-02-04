@@ -77,7 +77,8 @@ struct ContentView: View {
                         } // Button
                         
                         Button {
-                            self.showScore = true
+                            self.resultMessage = "Player X won \(xCount) games \n Player O won \(oCount) games"
+                            self.showAlert = true
                         } label: {
                             Text("Scoreboard")
                         } // Button
