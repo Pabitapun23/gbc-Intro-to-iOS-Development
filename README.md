@@ -13,3 +13,6 @@ In this session, I studied about toggle (switch), stepper, slider, and date pick
 
 ## 4. Session04
 In this session, I studied iOS architecture and lifecycle, SwiftUI, multiplatform demos (like Mac, iPad, iPhone, etc), alerts, dark mode, colors, ZStack, NavigationStack, and many more. I built a Tic-Tac-Toe game using all the specifications, and also, created a navigation bar on the top of the screen. Moreover, I downloaded and used the icons from SF Symbols.
+
+## 5. Assignment 1
+In assignment 1 of Introduction to iOS Development, I developed an iOS application for Pizza Store, named Pabita's Pizza Store. In this application, users can easily customize and place orders through a user-friendly form, specifying preferences such as pizza type, size, quantity, and coupon codes for additional discounts. Moreover, users can reset form fields using a conveniently located option on the navigation bar. An enticing feature includes the ability to explore the daily specials menu, where users can secure exclusive discount coupons. I tested and added error handling and thorough form validation to it, ensuring a seamless and error-free user experience.
