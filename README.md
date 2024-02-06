@@ -18,4 +18,4 @@ In this session, I studied iOS architecture and lifecycle, SwiftUI, multiplatfor
 In assignment 1 of Introduction to iOS Development, I developed an iOS application for Pizza Store, named Pabita's Pizza Store. In this application, users can easily customize and place orders through a user-friendly form, specifying preferences such as pizza type, size, quantity, and coupon codes for additional discounts. Moreover, users can reset form fields using a conveniently located option on the navigation bar. An enticing feature includes the ability to explore the daily specials menu, where users can secure exclusive discount coupons. I tested and added error handling and thorough form validation to it, ensuring a seamless and error-free user experience.
 
 ## 6. Session06 - UIKitNewDemo
-In this session, I learned about UI kits and the basics of storyboards. I made an application for a pizza ordering system that has multiple screens. 
+In this session, I learned about UI kits, the basics of storyboards, navigation, connection, and inspection in the storyboards. I made an iOS application for a pizza ordering system that has multiple screens. 
