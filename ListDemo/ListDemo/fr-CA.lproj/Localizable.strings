@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  ListDemo
+
+  Created by Pabita Pun on 2024-02-06.
+  
+*/
+
+"Fiction" = "Fiction";
+"This is our most popular segment" = "C'est notre segment le plus populaire";
+"Non-Fiction" = "Non-fiction";
+"Enter author name to search" = "Entrez le nom de l'auteur pour rechercher";
+"Sorry. We don't have any books for now. We are working on restocking. Check back later." = "Désolé. Nous n'avons pas de livres pour l'instant. Nous travaillons sur le réapprovisionnement. Revenez plus tard.";
+"Enter new book details" = "Entrez les détails du nouveau livre";
+"Enter book title" = "Entrez le titre du livre";
+"Enter author name" = "Entrez le nom de l'auteur";
+"Is fiction book? " = "La fiction est-elle un livre ?";
+"Add" = "Ajouter";
+"List Demo" = "Liste démo";
