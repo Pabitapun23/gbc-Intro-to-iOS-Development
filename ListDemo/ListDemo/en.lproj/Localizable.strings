@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  ListDemo
+
+  Created by Pabita Pun on 2024-02-06.
+  
+*/
+
+"Fiction";
+"This is our most popular segment";
+"Non-Fiction";
+"Enter author name to search";
+"Sorry. We don't have any books for now. We are working on restocking. Check back later.";
+"Enter new book details";
+"Enter book title";
+"Enter author name";
+"Is fiction book? ";
+"Add";
+"List Demo";
