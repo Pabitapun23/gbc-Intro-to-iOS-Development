@@ -23,7 +23,7 @@ class SecondViewController: UIViewController {
         print("Coupon: \(couponCode)")
         
         // validation
-        var price: Double = 20.00
+        let price: Double = 20.00
         let finalCost = price
         
         let output = "\(finalCost)"
