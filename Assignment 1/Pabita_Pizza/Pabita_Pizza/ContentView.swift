@@ -115,7 +115,7 @@ struct ContentView: View {
                     .fontWeight(.bold)
                 TextField("Enter coupon code", text: $couponCodeFromUI)
                     .padding(.all, 5.0)
-                    .border(Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1)
+                    .border(Color.black, width: 1)
                 
                 // error message
                 Text("\(errorMsg)")

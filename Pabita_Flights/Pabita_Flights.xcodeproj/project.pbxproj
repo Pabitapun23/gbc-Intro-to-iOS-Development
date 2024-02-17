@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		500A7C822B7BE74400131DDD /* Pabita_FlightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A7C812B7BE74400131DDD /* Pabita_FlightsApp.swift */; };
+		500A7C842B7BE74400131DDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A7C832B7BE74400131DDD /* ContentView.swift */; };
+		500A7C862B7BE74500131DDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 500A7C852B7BE74500131DDD /* Assets.xcassets */; };
+		500A7C892B7BE74500131DDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 500A7C882B7BE74500131DDD /* Preview Assets.xcassets */; };
+		500A7C932B7BE74500131DDD /* Pabita_FlightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A7C922B7BE74500131DDD /* Pabita_FlightsTests.swift */; };
+		500A7C9D2B7BE74500131DDD /* Pabita_FlightsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A7C9C2B7BE74500131DDD /* Pabita_FlightsUITests.swift */; };
+		500A7C9F2B7BE74500131DDD /* Pabita_FlightsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A7C9E2B7BE74500131DDD /* Pabita_FlightsUITestsLaunchTests.swift */; };
+		500A7CAD2B7BE77900131DDD /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A7CAC2B7BE77900131DDD /* Flight.swift */; };
+		500A7CAF2B7BE78F00131DDD /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A7CAE2B7BE78F00131DDD /* Reservation.swift */; };
+		500A7CB42B7BEF9E00131DDD /* ReservationHistoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A7CB32B7BEF9E00131DDD /* ReservationHistoryScreen.swift */; };
+		500A7CB62B7BEFB400131DDD /* ReservationDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A7CB52B7BEFB400131DDD /* ReservationDetailsScreen.swift */; };
+		500A7CBA2B7BF73300131DDD /* FlightReservationEntryFormScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A7CB92B7BF73300131DDD /* FlightReservationEntryFormScreen.swift */; };
+		500A7CBC2B7C238A00131DDD /* ReservationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A7CBB2B7C238A00131DDD /* ReservationList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		500A7C8F2B7BE74500131DDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 500A7C762B7BE74400131DDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 500A7C7D2B7BE74400131DDD;
+			remoteInfo = Pabita_Flights;
+		};
+		500A7C992B7BE74500131DDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 500A7C762B7BE74400131DDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 500A7C7D2B7BE74400131DDD;
+			remoteInfo = Pabita_Flights;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		500A7C7E2B7BE74400131DDD /* Pabita_Flights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pabita_Flights.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		500A7C812B7BE74400131DDD /* Pabita_FlightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pabita_FlightsApp.swift; sourceTree = "<group>"; };
+		500A7C832B7BE74400131DDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		500A7C852B7BE74500131DDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		500A7C882B7BE74500131DDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		500A7C8E2B7BE74500131DDD /* Pabita_FlightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pabita_FlightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		500A7C922B7BE74500131DDD /* Pabita_FlightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pabita_FlightsTests.swift; sourceTree = "<group>"; };
+		500A7C982B7BE74500131DDD /* Pabita_FlightsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pabita_FlightsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		500A7C9C2B7BE74500131DDD /* Pabita_FlightsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pabita_FlightsUITests.swift; sourceTree = "<group>"; };
+		500A7C9E2B7BE74500131DDD /* Pabita_FlightsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pabita_FlightsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		500A7CAC2B7BE77900131DDD /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		500A7CAE2B7BE78F00131DDD /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		500A7CB32B7BEF9E00131DDD /* ReservationHistoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationHistoryScreen.swift; sourceTree = "<group>"; };
+		500A7CB52B7BEFB400131DDD /* ReservationDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationDetailsScreen.swift; sourceTree = "<group>"; };
+		500A7CB92B7BF73300131DDD /* FlightReservationEntryFormScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightReservationEntryFormScreen.swift; sourceTree = "<group>"; };
+		500A7CBB2B7C238A00131DDD /* ReservationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		500A7C7B2B7BE74400131DDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		500A7C8B2B7BE74500131DDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		500A7C952B7BE74500131DDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		500A7C752B7BE74400131DDD = {
+			isa = PBXGroup;
+			children = (
+				500A7C802B7BE74400131DDD /* Pabita_Flights */,
+				500A7C912B7BE74500131DDD /* Pabita_FlightsTests */,
+				500A7C9B2B7BE74500131DDD /* Pabita_FlightsUITests */,
+				500A7C7F2B7BE74400131DDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		500A7C7F2B7BE74400131DDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				500A7C7E2B7BE74400131DDD /* Pabita_Flights.app */,
+				500A7C8E2B7BE74500131DDD /* Pabita_FlightsTests.xctest */,
+				500A7C982B7BE74500131DDD /* Pabita_FlightsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		500A7C802B7BE74400131DDD /* Pabita_Flights */ = {
+			isa = PBXGroup;
+			children = (
+				500A7CB02B7BEF2100131DDD /* View */,
+				500A7CAB2B7BE75400131DDD /* Model */,
+				500A7C812B7BE74400131DDD /* Pabita_FlightsApp.swift */,
+				500A7C832B7BE74400131DDD /* ContentView.swift */,
+				500A7C852B7BE74500131DDD /* Assets.xcassets */,
+				500A7C872B7BE74500131DDD /* Preview Content */,
+			);
+			path = Pabita_Flights;
+			sourceTree = "<group>";
+		};
+		500A7C872B7BE74500131DDD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				500A7C882B7BE74500131DDD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		500A7C912B7BE74500131DDD /* Pabita_FlightsTests */ = {
+			isa = PBXGroup;
+			children = (
+				500A7C922B7BE74500131DDD /* Pabita_FlightsTests.swift */,
+			);
+			path = Pabita_FlightsTests;
+			sourceTree = "<group>";
+		};
+		500A7C9B2B7BE74500131DDD /* Pabita_FlightsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				500A7C9C2B7BE74500131DDD /* Pabita_FlightsUITests.swift */,
+				500A7C9E2B7BE74500131DDD /* Pabita_FlightsUITestsLaunchTests.swift */,
+			);
+			path = Pabita_FlightsUITests;
+			sourceTree = "<group>";
+		};
+		500A7CAB2B7BE75400131DDD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				500A7CAC2B7BE77900131DDD /* Flight.swift */,
+				500A7CAE2B7BE78F00131DDD /* Reservation.swift */,
+				500A7CBB2B7C238A00131DDD /* ReservationList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		500A7CB02B7BEF2100131DDD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				500A7CB32B7BEF9E00131DDD /* ReservationHistoryScreen.swift */,
+				500A7CB52B7BEFB400131DDD /* ReservationDetailsScreen.swift */,
+				500A7CB92B7BF73300131DDD /* FlightReservationEntryFormScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		500A7C7D2B7BE74400131DDD /* Pabita_Flights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 500A7CA22B7BE74500131DDD /* Build configuration list for PBXNativeTarget "Pabita_Flights" */;
+			buildPhases = (
+				500A7C7A2B7BE74400131DDD /* Sources */,
+				500A7C7B2B7BE74400131DDD /* Frameworks */,
+				500A7C7C2B7BE74400131DDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pabita_Flights;
+			productName = Pabita_Flights;
+			productReference = 500A7C7E2B7BE74400131DDD /* Pabita_Flights.app */;
+			productType = "com.apple.product-type.application";
+		};
+		500A7C8D2B7BE74500131DDD /* Pabita_FlightsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 500A7CA52B7BE74500131DDD /* Build configuration list for PBXNativeTarget "Pabita_FlightsTests" */;
+			buildPhases = (
+				500A7C8A2B7BE74500131DDD /* Sources */,
+				500A7C8B2B7BE74500131DDD /* Frameworks */,
+				500A7C8C2B7BE74500131DDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				500A7C902B7BE74500131DDD /* PBXTargetDependency */,
+			);
+			name = Pabita_FlightsTests;
+			productName = Pabita_FlightsTests;
+			productReference = 500A7C8E2B7BE74500131DDD /* Pabita_FlightsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		500A7C972B7BE74500131DDD /* Pabita_FlightsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 500A7CA82B7BE74500131DDD /* Build configuration list for PBXNativeTarget "Pabita_FlightsUITests" */;
+			buildPhases = (
+				500A7C942B7BE74500131DDD /* Sources */,
+				500A7C952B7BE74500131DDD /* Frameworks */,
+				500A7C962B7BE74500131DDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				500A7C9A2B7BE74500131DDD /* PBXTargetDependency */,
+			);
+			name = Pabita_FlightsUITests;
+			productName = Pabita_FlightsUITests;
+			productReference = 500A7C982B7BE74500131DDD /* Pabita_FlightsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		500A7C762B7BE74400131DDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					500A7C7D2B7BE74400131DDD = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					500A7C8D2B7BE74500131DDD = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 500A7C7D2B7BE74400131DDD;
+					};
+					500A7C972B7BE74500131DDD = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 500A7C7D2B7BE74400131DDD;
+					};
+				};
+			};
+			buildConfigurationList = 500A7C792B7BE74400131DDD /* Build configuration list for PBXProject "Pabita_Flights" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 500A7C752B7BE74400131DDD;
+			productRefGroup = 500A7C7F2B7BE74400131DDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				500A7C7D2B7BE74400131DDD /* Pabita_Flights */,
+				500A7C8D2B7BE74500131DDD /* Pabita_FlightsTests */,
+				500A7C972B7BE74500131DDD /* Pabita_FlightsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		500A7C7C2B7BE74400131DDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500A7C892B7BE74500131DDD /* Preview Assets.xcassets in Resources */,
+				500A7C862B7BE74500131DDD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		500A7C8C2B7BE74500131DDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		500A7C962B7BE74500131DDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		500A7C7A2B7BE74400131DDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500A7CBA2B7BF73300131DDD /* FlightReservationEntryFormScreen.swift in Sources */,
+				500A7CAD2B7BE77900131DDD /* Flight.swift in Sources */,
+				500A7C842B7BE74400131DDD /* ContentView.swift in Sources */,
+				500A7CAF2B7BE78F00131DDD /* Reservation.swift in Sources */,
+				500A7C822B7BE74400131DDD /* Pabita_FlightsApp.swift in Sources */,
+				500A7CB42B7BEF9E00131DDD /* ReservationHistoryScreen.swift in Sources */,
+				500A7CBC2B7C238A00131DDD /* ReservationList.swift in Sources */,
+				500A7CB62B7BEFB400131DDD /* ReservationDetailsScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		500A7C8A2B7BE74500131DDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500A7C932B7BE74500131DDD /* Pabita_FlightsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		500A7C942B7BE74500131DDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500A7C9D2B7BE74500131DDD /* Pabita_FlightsUITests.swift in Sources */,
+				500A7C9F2B7BE74500131DDD /* Pabita_FlightsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		500A7C902B7BE74500131DDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 500A7C7D2B7BE74400131DDD /* Pabita_Flights */;
+			targetProxy = 500A7C8F2B7BE74500131DDD /* PBXContainerItemProxy */;
+		};
+		500A7C9A2B7BE74500131DDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 500A7C7D2B7BE74400131DDD /* Pabita_Flights */;
+			targetProxy = 500A7C992B7BE74500131DDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		500A7CA02B7BE74500131DDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		500A7CA12B7BE74500131DDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		500A7CA32B7BE74500131DDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pabita_Flights/Preview Content\"";
+				DEVELOPMENT_TEAM = 827JZHP663;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gbc.Pabita-Flights";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		500A7CA42B7BE74500131DDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pabita_Flights/Preview Content\"";
+				DEVELOPMENT_TEAM = 827JZHP663;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gbc.Pabita-Flights";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		500A7CA62B7BE74500131DDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 827JZHP663;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gbc.Pabita-FlightsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pabita_Flights.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pabita_Flights";
+			};
+			name = Debug;
+		};
+		500A7CA72B7BE74500131DDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 827JZHP663;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gbc.Pabita-FlightsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pabita_Flights.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pabita_Flights";
+			};
+			name = Release;
+		};
+		500A7CA92B7BE74500131DDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 827JZHP663;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gbc.Pabita-FlightsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pabita_Flights;
+			};
+			name = Debug;
+		};
+		500A7CAA2B7BE74500131DDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 827JZHP663;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gbc.Pabita-FlightsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pabita_Flights;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		500A7C792B7BE74400131DDD /* Build configuration list for PBXProject "Pabita_Flights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500A7CA02B7BE74500131DDD /* Debug */,
+				500A7CA12B7BE74500131DDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		500A7CA22B7BE74500131DDD /* Build configuration list for PBXNativeTarget "Pabita_Flights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500A7CA32B7BE74500131DDD /* Debug */,
+				500A7CA42B7BE74500131DDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		500A7CA52B7BE74500131DDD /* Build configuration list for PBXNativeTarget "Pabita_FlightsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500A7CA62B7BE74500131DDD /* Debug */,
+				500A7CA72B7BE74500131DDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		500A7CA82B7BE74500131DDD /* Build configuration list for PBXNativeTarget "Pabita_FlightsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500A7CA92B7BE74500131DDD /* Debug */,
+				500A7CAA2B7BE74500131DDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 500A7C762B7BE74400131DDD /* Project object */;
+}
