@@ -31,3 +31,6 @@ In this session, I learned about APIs, and how to handle and integrate them in o
 
 ## 10. Pabita_Flights
 This is an iOS application that I've developed for my final exam. This is an app that focuses on flight management systems. In this app, users can book a flight, check a flight detail after selecting arriving flights, can use coupons for extra discounts. Also, users can view the list of their flight history and details of their booked flights.
+
+## 11. Session11 - UserDefaultsInApp
+In this session, I learned about UserDefaults that are used to persist data. I created an app for Thermo Screen that persists user input data using UserDefaults for temperature, minimum temperature, font size, maintenance data, etc.
