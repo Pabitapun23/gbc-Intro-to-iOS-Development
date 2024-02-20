@@ -19,3 +19,7 @@ In assignment 1 of Introduction to iOS Development, I developed an iOS applicati
 
 ## 6. Session06 - UIKitNewDemo
 In this session, I learned about UI kits, the basics of storyboards, navigation, connection, and inspection in the storyboards. I made an iOS application for a pizza ordering system that has multiple screens. 
+
+## 7. Session07 - ListDemo
+In this session, I learned about Lists, Identifiable, Hashable, etc. I created a ListDemo app that shows the list of books and also navigates to its detailed page view. Moreover, I learned and practiced about adding multiple languages to the application.
+
