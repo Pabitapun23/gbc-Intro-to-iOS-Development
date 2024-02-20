@@ -25,3 +25,6 @@ In this session, I learned about Lists, CDRUD in Lists, Identifiable, Hashable, 
 
 ## 8. Session08 - MultiScreenDemo
 In this session, I learned and practiced about multiple screens on iOS apps, NavigationStack, NavigationView, Observable, ObservedObject, EnvironmentObject, Published, sending and passing data to multiple screens, the bottom navigation tab, and many more. I developed an app called MultiScreenDemo, where users can log in with their credentials, view the dashboard, and navigate to multiple screens while sending and passing data to each page. 
+
+## 9. Session09 - JobsWebServiceDemo
+In this session, I learned about APIs, and how to handle and integrate them in our project. I created an app called JobsWebServiceDemo, which shows a list of jobs with images, titles, and descriptions. All the data I used were from API calls. Also, in this app, I included a filtering and searching system, and a detailed page to view the details of that particular job.
