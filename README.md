@@ -21,5 +21,7 @@ In assignment 1 of Introduction to iOS Development, I developed an iOS applicati
 In this session, I learned about UI kits, the basics of storyboards, navigation, connection, and inspection in the storyboards. I made an iOS application for a pizza ordering system that has multiple screens. 
 
 ## 7. Session07 - ListDemo
-In this session, I learned about Lists, Identifiable, Hashable, etc. I created a ListDemo app that shows the list of books and also navigates to its detailed page view. Moreover, I learned and practiced about adding multiple languages to the application.
+In this session, I learned about Lists, CDRUD in Lists, Identifiable, Hashable, etc. I created a ListDemo app that shows the list of books and also navigates to its detailed page view. Moreover, I learned and practiced about adding multiple languages to the application.
 
+## 8. Session08 - MultiScreenDemo
+In this session, I learned and practiced about multiple screens on iOS apps, NavigationStack, NavigationView, Observable, ObservedObject, EnvironmentObject, Published, sending and passing data to multiple screens, the bottom navigation tab, and many more. I developed an app called MultiScreenDemo, where users can log in with their credentials, view the dashboard, and navigate to multiple screens while sending and passing data to each page. 
